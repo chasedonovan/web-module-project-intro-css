@@ -58,17 +58,32 @@ body {
 }
 
 .nav-container {
-  margin: 0 10px;
-  border: 1px solid lightgray;
-  padding: 20px;
-  display: inline-block;
-  border-radius: 20px;
   margin-bottom: 20px;
 }
 
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 20px;
+
+}
+a{
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
 .link1 {
   background-color: #FF764E;
-  color:white;
+}
 
+.link2 {
+  background-color: #5ED3EB;
+
+}
+
+.link3 {
+  background-color: #FFCD69;
 }
 

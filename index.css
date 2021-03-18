@@ -48,8 +48,8 @@ table {
 }
 
 body {
-  font-family: 'Chelsea Market', cursive;
-  font-size: 24px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
 }
 
 .container {
@@ -103,17 +103,17 @@ text-align: center;
 .top{
 padding-bottom: 10%;
 text-align: right;
+border: 5px solid gray;
 }
 
 .head{
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    padding: 5%
+  font-family: 'Chelsea Market', cursive;
+  font-size: 48px;
+    padding: 5%;
 }
 
 .intro{
-    font-family: 'Chelsea Market', cursive;
-    font-size: 24px;
+
 }
 
 .mid {
@@ -123,19 +123,23 @@ text-align: right;
 }
 .bottom {
   text-align: center;
-  margin-inline: 20%;
-  padding: 5%;
+  width: 40%;
+  padding: 0 30% 0 30%;
+}
+
+.p1 {
+  font-weight: 900;
 }
 
 .fire {
   height: 200px;
-  width: auto;
+  width: 40%;
   padding: 10%;
 }
 
 .truck {
   height: 200px;
-  width: auto;
+  width: 40%;
   padding: 10%;
 
 }
